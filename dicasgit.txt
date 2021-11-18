@@ -1,0 +1,56 @@
+Abrir o cmd ou git-bashe:
+$ git config --global user.name "Nome"
+$ git config --global user.email "sxxx@ssdds"
+
+Conferir se deu certo:
+$ git config --global --list
+
+Navegue até o diretório através do cmd
+$ git init
+
+Vericar versão:
+$ git status
+
+Adicionar aquivo
+$ git add test.txt
+$ git add --all ou $ git add .
+
+Confirma
+$ git commit teste.txt ou $ git commit -m "mudar a cor do botão"
+
+Visualiza alterações
+$ git log
+$ git log --stat
+
+Mudanças entre commit
+$ git diff numerocommit1 numerocommit2
+
+Recuperar versão específica
+$ git checkout numerocommit (ex. b1)
+
+Voltar para ultima versão
+$ git checkout master
+
+Desfaz uma alteração
+$ git checkout teste.txt
+
+Desfaz todas as alterações
+$ git reset --hard
+
+Git ignore:
+*.exe
+
+Clonar repositório:
+$ git clone diretorioRepositorio
+
+$ git branch develop ou $ git branch -b novabranch
+
+Unir codelines
+$ git checkout master
+$ git merge develop
+
+Enviar para o servidor
+$ git push
+
+dir (listar)
+mkdir nomedanovapasta (criar pasta)
