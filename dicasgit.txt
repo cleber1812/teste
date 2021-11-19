@@ -54,3 +54,5 @@ $ git push
 
 dir (listar)
 mkdir nomedanovapasta (criar pasta)
+
+ls (para listar as pastas)
